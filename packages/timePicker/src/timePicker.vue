@@ -2,8 +2,8 @@
  * @Author: liruixi
  * @Description: 
  * @Date: 2022-03-10 16:24:42
- * @LastEditTime: 2022-03-10 17:27:27
- * @FilePath: \npmtest\packages\timePicker\src\timePicker.vue
+ * @LastEditTime: 2022-03-11 16:07:10
+ * @FilePath: \timePicker\packages\timePicker\src\timePicker.vue
 -->
 <template>
   <div class="dateBox" @click.stop>
@@ -73,7 +73,7 @@ import { DatePicker, TimePicker } from 'view-design'
 import 'view-design/dist/styles/iview.css'
 
 export default {
-  name: 'TimePick',
+  name: 'TimePickTest',
   components: { DatePicker, TimePicker },
   props: {
     startTimeCon: {
